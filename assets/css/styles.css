@@ -27,6 +27,7 @@ body {
 }
 
 /*** Style for header ***/
+/*
 header {
     padding-top: 32px;
     height: calc(120px + 32px);
@@ -35,7 +36,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #4e036b 0%, #e743d9 50.52%, #10b0d8 100%);
     
     border-radius: 50%;
 
@@ -53,10 +54,38 @@ header div img {
     width: 100%;
     border-radius: 50%;
 }
+*/
+
+#f1-logo {
+    background: url(https://f1esports.com/bundles/f1microsite/images/esports-red.png) no-repeat;
+    background-size: contain;
+    width: 242px;
+    height: 30px;
+    text-indent: 100%;
+    overflow: hidden;
+    margin: 10px 5px;
+    display: block;
+}
+
+.video div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.video div iframe{
+    padding-top: 4px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #4e036b 0%, #e743d9 50.52%, #10b0d8 100%);
+}
+
 
 /*** Style content page ***/
 main {
-    max-width: 580px;
+    max-width: 1215px;
     width: 90%;
     margin: 32px auto;
 
@@ -68,13 +97,15 @@ main {
 /*** Style for sections ***/
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #4e036b 0%, #e743d9 50.52%, #10b0d8 100%);
     padding-top: 4px;
     border-radius: 10px;
+    margin-top: 25px;
 }
 
 section div {
-    background-color: #2A2634;
+    background-color: #1c1c22;
+    /*background-color: #2A2634;*/
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -110,18 +141,34 @@ section ul li:hover {
 
 /** style images for sections **/
 .games-list img {
-    width: 90px;
+    width: 100px;
     border-radius: 8px;
+}
+
+.download-list img {
+    width: 70px;
+}
+.download-list img.steam-logo {
+    width: 58px;
+}
+.download-list img.playstore-logo {
+    width: 65px;
+}
+.download-list img.apple-logo {
+    width: 55px;
 }
 
 .channel-list img {
     border-radius: 50%;
     width: 70px;
+    background-image: linear-gradient(90deg, #4e036b 0%, #e743d9 50.52%, #10b0d8 100%);
+    padding: 1.5px;
 }
 
 /*** Style Animations ***/
 
 /** Animations header **/
+/*
 header div {
     animation: fromTop .7s .2s backwards;
 }
@@ -137,31 +184,57 @@ header div {
         ransform: translateY(0);
     }
 }
+*/
+
+/** Animation Video **/
+main .video{
+    animation: fromVideo .7s .2s backwards;
+}
+
+@keyframes fromVideo {
+    from{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 /** Animations sections **/
 
 main section {
-    animation: fromBottom .7s backwards;
+    animation: fromBottom 1s backwards;
 }
 
 main section:nth-child(1) {
-    animation-delay: 0;
-}
-main section:nth-child(2) {
     animation-delay: .3s;
 }
-main section:nth-child(3) {
+main section:nth-child(2) {
     animation-delay: .6s;
+}
+main section:nth-child(3) {
+    animation-delay: .9s;
+}
+main section:nth-child(4) {
+    animation-delay: 1.2s;
+}
+main section:nth-child(5) {
+    animation-delay: 1.5s;
+    margin-bottom: 50px;
 }
 
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateX(-30px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
+
