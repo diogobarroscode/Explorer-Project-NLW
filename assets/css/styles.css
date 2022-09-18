@@ -119,9 +119,9 @@ section ul li:hover {
     width: 70px;
 }
 
-/*** Style Animation ***/
+/*** Style Animations ***/
 
-/** Animation header **/
+/** Animations header **/
 header div {
     animation: fromTop .7s .2s backwards;
 }
@@ -138,7 +138,7 @@ header div {
     }
 }
 
-/** Animation sections **/
+/** Animations sections **/
 
 main section {
     animation: fromBottom .7s backwards;
