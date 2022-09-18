@@ -15,6 +15,6 @@ Projeto contruído no evento Next Level Week (NLW) da Rocketseat
 #
 ## 📢 Contato
 
-### 🌐 [linkedin.com/in/diogobarros-code](https://www.linkedin.com/in/diogobarros-code/)
+🌐 [linkedin.com/in/diogobarros-code](https://www.linkedin.com/in/diogobarros-code/)
 
-### 📧 [diogobarros.code@gmail.com](diogobarros.code@gmail.com)
+📧 [diogobarros.code@gmail.com](diogobarros.code@gmail.com)
