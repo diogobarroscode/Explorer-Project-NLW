@@ -1,10 +1,12 @@
 # Projeto NLW eSports
 
-![preview](./.github/preview.png)
+![preview](./.github/preview-nlw-f1.jpg)
 
 > Trilha Explorer - Rocketseat
 
 Projeto contruído no evento Next Level Week (NLW) da Rocketseat
+
+🌐 Click no link para acessar:  [diogobarroscode.github.io/Explorer-Project-NLW](https://diogobarroscode.github.io/Explorer-Project-NLW/)
 #
 ## 🚀 Tecnologias
 
