@@ -4,7 +4,7 @@
 
 > Trilha Explorer - Rocketseat
 
-Projeto contruído no evento Next Level Week (NLW) da Rocketseat
+Projeto construído no evento Next Level Week (NLW) da Rocketseat. Evento especial, uma semana inteira dedicada a games.
 
 🌐 Click no link para acessar:  [diogobarroscode.github.io/Explorer-Project-NLW](https://diogobarroscode.github.io/Explorer-Project-NLW/)
 #
